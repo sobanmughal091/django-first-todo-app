@@ -1,3 +1,9 @@
 .env
 db.sqlite3
-.venv
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.env/    # in case someone uses custom name ending with env
